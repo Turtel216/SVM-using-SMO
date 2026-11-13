@@ -140,7 +140,7 @@ Run the compiled binary:
 
 
 
-The mathematical formulation and algorithmic structure of this implementation are based on the following resources cited in `main.cpp`:
+The mathematical formulation and algorithmic structure of this implementation are based on the following resources:
 
 
 
