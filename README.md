@@ -36,9 +36,9 @@ This repository provides a clear, self-contained implementation of the Simplifie
 
 
 
-* **`simpified_SMO` Class:** Encapsulates the SVM model parameters ($C$, $\text{tol}$, $\text{max\_passes}$), training loop (`train()`), inference method (`predict()`), and linear dot-product kernel (`dotProduct()`).
+* **`simpified_SMO` Class:** Encapsulates the SVM model parameters ($C$, $\text{tol}$, $\text{max passes}$), training loop (`train()`), inference method (`predict()`), and linear dot-product kernel (`dotProduct()`).
 
-* **`readFromFile()`:** Parses structured input data containing support vector coordinates, binary class labels (`-1` or `1`), and validation samples.
+* **`readFromFile()`:** Parses structured input data containing support vector coordinates, binary class labels ($-1$ or $1$), and validation samples.
 
 * **`main()`:** Initializes the dataset, configures the model hyperparameters, executes training, outputs the learned bias and $\alpha$ values, and runs predictions on the validation set.
 
